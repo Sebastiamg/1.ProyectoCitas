@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from './Components/Footer'
 
 const App = () => {
   return (
@@ -7,7 +8,7 @@ const App = () => {
       
       {/* Body */}
 
-      {/* Footer */}
+      <Footer/>
     </>
     )
 }
