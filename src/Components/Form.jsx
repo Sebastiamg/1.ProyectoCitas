@@ -12,13 +12,13 @@ const types = [
 const Form = () => {
     const [arrayInfo, setArrayInfo] = useState();
 
-    const [name, setName] = useState('name');
-    const [id, setId] = useState('5555');
-    const [petName, setPetName] = useState('PetName');
+    const [name, setName] = useState('');
+    const [id, setId] = useState('');
+    const [petName, setPetName] = useState('');
     const [petType, setPetType] = useState('');
-    const [age, setAge] = useState ('5');
-    const [date, setDate] = useState ('2023-03-31');
-    const [hour, setHour] = useState ('15:03');
+    const [age, setAge] = useState ('');
+    const [date, setDate] = useState ('');
+    const [hour, setHour] = useState ('');
 
     const [objectInfo, setObjectInfo] = useState()
 
@@ -163,6 +163,7 @@ const Form = () => {
             setArrInfo={setArrayInfo}
             setObjInfo={setObjectInfo}
         />
+        
     </div>
     </>
   )
